@@ -5,8 +5,8 @@ Created on Oct 29, 2020
 '''
 import unittest
 
-from ..tagger.Tagger import Tagger
-from ..tagger.model.FeatureExtractors import FeatureExtractors
+from tagger.Tagger import Tagger
+from tagger.model.FeatureExtractors import FeatureExtractors
 
 """
 changed Tagger.readData to Tagger.readCoNLL, because Tagger.readData does not exist
@@ -19,7 +19,7 @@ Added new features - changed test accordingly!!!
 class Test(unittest.TestCase):
 
     def setUp(self):
-        self.path = "project/Data/"
+        self.path = "Data/"
         self.tagger = Tagger()
 
     def testExtractFeatures(self):

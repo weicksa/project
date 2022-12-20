@@ -1,12 +1,12 @@
 import unittest
 
-from ..tagger.Tagger import *
+from tagger.Tagger import *
 
 
 class Feat_optimize(unittest.TestCase):
 
 	def setUp(self):
-		self.path = "project/Data/"
+		self.path = "Data/"
 		self.tagger = Tagger()
 		self.training = self.tagger.readCoNLL(self.path + "wsj_train.conll09")
 		self.develop = self.tagger.readCoNLL(self.path + "wsj_dev.conll09")

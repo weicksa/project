@@ -1,0 +1,12 @@
+{
+	"python.testing.unittestArgs": [
+		"-v",
+		"-s",
+		"./testing",
+		"-p",
+		"*Test.py"
+	],
+	"python.testing.pytestEnabled": false,
+	"python.testing.unittestEnabled": true,
+	"python.analysis.extraPaths": ["${workspaceFolder}/mysourcepackage"]
+}

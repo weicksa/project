@@ -5,14 +5,14 @@ Created on Oct 29, 2020
 '''
 import unittest
 
-from ..tagger.Tagger_alt import *
-from ..tagger.model.Evaluation import Evaluation
+from tagger.Tagger_alt import *
+from tagger.model.Evaluation import Evaluation
 
 
 class EvaluationTest(unittest.TestCase):
 
     def setUp(self):
-        self.filename = "project/Data/wsj_dev.treetags"
+        self.filename = "Data/wsj_dev.treetags"
 
     def testAccuracy(self):
         # // check that the treetagger WSJ tags have the expected accuracy

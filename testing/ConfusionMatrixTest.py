@@ -5,14 +5,14 @@ Created on Oct 29, 2020
 '''
 import unittest
 
-from ..tagger.Tagger_alt import Tagger
-from ..tagger.data.ConfusionMatrix import ConfusionMatrix
+from tagger.Tagger_alt import Tagger
+from tagger.data.ConfusionMatrix import ConfusionMatrix
 
 
 class ConfusionMatrixTest(unittest.TestCase):
 
     def setUp(self):
-        self.filename = "project/Data/wsj_dev.treetags"
+        self.filename = "Data/wsj_dev.treetags"
 
     def testConfusionMatrix(self):
         data = None

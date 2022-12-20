@@ -5,11 +5,11 @@ Created on Oct 29, 2020
 '''
 import unittest
 
-from ..tagger.model.BinaryWeights import BinaryWeights
-from ..tagger.model.BinaryPerceptron import BinaryPerceptron
+from tagger.model.BinaryWeights import BinaryWeights
+from tagger.model.BinaryPerceptron import BinaryPerceptron
 
-from ..tagger.data.Sentence import Sentence
-from ..tagger.data.Token import Token
+from tagger.data.Sentence import Sentence
+from tagger.data.Token import Token
 
 
 class BinaryPerceptronTest(unittest.TestCase):

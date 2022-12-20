@@ -5,15 +5,15 @@ Created on Oct 29, 2020
 '''
 import unittest
 
-from ..tagger.Tagger import Tagger
-from ..tagger.data.StringMapper import StringMapper
-from ..tagger.model.FeatureExtractors import FeatureExtractors
+from tagger.Tagger import Tagger
+from tagger.data.StringMapper import StringMapper
+from tagger.model.FeatureExtractors import FeatureExtractors
 
 
 class StringMapperTest(unittest.TestCase):
 
     def setUp(self):
-        self.path = "project/Data/"
+        self.path = "Data/"
         self.tagger = Tagger()
 
     # /**

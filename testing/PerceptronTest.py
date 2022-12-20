@@ -5,13 +5,13 @@ Created on Oct 30, 2020
 '''
 import unittest
 
-from ..tagger.model.Weights import Weights
-from ..tagger.model.Perceptron import Perceptron
+from tagger.model.Weights import Weights
+from tagger.model.Perceptron import Perceptron
 
-from ..tagger.data.Sentence import Sentence
-from ..tagger.data.Token import Token
+from tagger.data.Sentence import Sentence
+from tagger.data.Token import Token
 
-from ..tagger.data.StringMapper import StringMapper
+from tagger.data.StringMapper import StringMapper
 
 """
 Changed arguments for Perceptron and Weight class !!!
