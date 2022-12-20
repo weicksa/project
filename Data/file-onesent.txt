@@ -1,0 +1,10 @@
+1_1	``	--	--	$(	$(	_	_	4	4	--	--	_	_
+1_2	Ross	Ross	Ross	NE	NE	case=nom|number=sg|gender=masc	case=nom|number=sg|gender=masc	3	3	PNC	PNC	_	_
+1_3	Perot	Perot	Perot	NE	NE	case=nom|number=sg|gender=masc	case=nom|number=sg|gender=masc	4	4	SB	SB	_	_
+1_4	wäre	sein	sein	VAFIN	VAFIN	number=sg|person=3|tense=past|mood=subj	number=sg|person=3|tense=past|mood=subj	0	0	--	--	_	_
+1_5	vielleicht	vielleicht	vielleicht	ADV	ADV	_	_	4	4	MO	MO	_	_
+1_6	ein	ein	ein	ART	ART	case=nom|number=sg|gender=masc	case=nom|number=sg|gender=masc	8	8	NK	NK	_	_
+1_7	prächtiger	prächtig	prächtig	ADJA	ADJA	case=nom|number=sg|gender=masc|degree=pos	case=nom|number=sg|gender=masc|degree=pos	8	8	NK	NK	_	_
+1_8	Diktator	Diktator	Diktator	NN	NN	case=nom|number=sg|gender=masc	case=nom|number=sg|gender=masc	4	4	PD	PD	_	_
+1_9	''	--	--	$(	$(	_	_	4	4	--	--	_	_
+

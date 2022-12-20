@@ -1,0 +1,11 @@
+Blatt 3; Aufgabe 1
+
+    prevWord wird als "prev=word" in StringMap indiziert
+    nextWord wird als "next=word" in StringMap indiziert
+    wenn previous attribut eines Tokens None ist, ist es satzinitial,
+    in StringMap wird dann "$begin" hinterlegt
+    wenn next attribut eines Tokens None ist, ist es satzfinal,
+    in StringMap wird dann "final$" hinterlegt
+
+    Es gilt für die StringMap: index von "prev=word" != index von "word"
+    gleiches für next
