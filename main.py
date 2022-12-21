@@ -1,4 +1,3 @@
-from Data import *
 from tagger.Tagger import pipeline
 
 
