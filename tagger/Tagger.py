@@ -29,7 +29,7 @@ def pipeline(train, dev):
     for key in extractor.mapper.map:
         feature_count += 1
 
-    extractor.writeToFile(training, "project/Data/file_training.svmmulti")
+    #extractor.writeToFile(training, "project/Data/file_training.svmmulti")
     class_mapper = extractor.class_mapper
     model = Perceptron(class_mapper, feature_count)
     print("now training model")
